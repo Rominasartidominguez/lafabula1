@@ -42,12 +42,12 @@ footer, nav{
 
 
 
-#sinopsis, #equipo, #casas, #monarca, #insumisa, #pajaro{
+#sinopsis, #equipo, #casas, #monarca, #insumisa, #pajaro, #entrevistatv1{
     background-color: #75A89B;
     color: aliceblue;
 }
 
-#personajes, #directora, #pelicula, #premios{
+#personajes, #directora, #pelicula, #premios, #entrevistaradio1{
     background-color: #22312D;
     color: aliceblue;
 }
@@ -62,6 +62,20 @@ footer, nav{
 
 }
 
+#premios li i{
+  font-size:0.8em;
+  color: aliceblue;
+}
+
+#audiobar{
+    
+    color: #75A89B !important;
+    background-color: #75A89B !important;
+}
+
+audio.controls{
+  color: #22312D;
+}
 
 /* Botón base */
  .btn {
@@ -110,6 +124,11 @@ footer, nav{
 .card-body{
     background-color: #75A89B;
     color: aliceblue;
+  
+}
+
+.card-body p{
+  font-size:0.8em;
 }
 
 #productoras h2{
@@ -119,5 +138,6 @@ footer, nav{
 #monarca a i, #insumisa a i, #pajaro a i{
   font-size: 0.9em;
 }
+
 
 
