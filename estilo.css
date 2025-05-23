@@ -42,12 +42,12 @@ footer, nav{
 
 
 
-#sinopsis, #equipo, #casas, #monarca, #insumisa, #pajaro, #entrevistatv1{
+#sinopsis, #equipo, #casas, #monarca, #insumisa, #pajaro, #entrevistatv1,#entrevistaradio1{
     background-color: #75A89B;
     color: aliceblue;
 }
 
-#personajes, #directora, #pelicula, #premios, #entrevistaradio1{
+#personajes, #directora, #pelicula, #premios{
     background-color: #22312D;
     color: aliceblue;
 }
