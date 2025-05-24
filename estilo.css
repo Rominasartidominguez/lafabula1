@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Minion Pro', sans-serif;
-    font-size: 18px;
+    font-size: 1.3rem;
 }
 
 
@@ -25,15 +25,13 @@
 footer, nav{
     background-color: #22312D;
     color: #afb2b6;
-    font-size: 14px;
-   
-
 }
 
 
 .formulario{
   max-width: 450px;
 }
+
 #encabezado, #trailer, #logros, #productoras,#contacto, #alwaysCollapsedNav{
     background: url(imagenes/fondo.png);
     background-attachment: fixed;
@@ -133,9 +131,7 @@ audio.controls{
   font-size:0.8em;
 }
 
-#productoras h2{
-  font-size: 1.8em;
-}
+
 
 #monarca a i, #insumisa a i, #pajaro a i{
   font-size: 0.9em;
