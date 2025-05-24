@@ -38,7 +38,7 @@ footer p, footer i{
   max-width: 450px;
 }
 
-#encabezado, #trailer, #logros, #productoras,#contacto, #alwaysCollapsedNav{
+#encabezado, #trailer,#galeria, #logros, #productoras,#contacto, #alwaysCollapsedNav{
     background: url(imagenes/fondo.png);
     background-attachment: fixed;
     background-position: center;
