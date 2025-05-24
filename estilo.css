@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Minion Pro', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 
@@ -26,6 +26,12 @@ footer, nav{
     background-color: #22312D;
     color: #afb2b6;
 }
+footer p, footer i{
+  font-size: 18px;
+  vertical-align:top;
+}
+
+
 
 
 .formulario{
@@ -42,12 +48,12 @@ footer, nav{
 
 
 
-#sinopsis, #equipo, #casas, #monarca, #insumisa, #pajaro, #entrevistatv1,#entrevistaradio1{
+#sinopsis, #equipo, #casas, #monarca, #insumisa, #pajaro , #pelicula{
     background-color: #75A89B;
     color: aliceblue;
 }
 
-#personajes, #directora, #pelicula, #premios{
+#intencion, #directora, #premios,  #entrevistatv1,#entrevistaradio1{
     background-color: #22312D;
     color: aliceblue;
 }
