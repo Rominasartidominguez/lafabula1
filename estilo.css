@@ -31,7 +31,9 @@ footer, nav{
 }
 
 
-
+.formulario{
+  max-width: 450px;
+}
 #encabezado, #trailer, #logros, #productoras,#contacto, #alwaysCollapsedNav{
     background: url(imagenes/fondo.png);
     background-attachment: fixed;
