@@ -6,7 +6,7 @@
     font-family: 'Minion Pro', sans-serif;
 }
 html {
-  font-size: clamp(14px, 1.9vw, 21px);
+  font-size: clamp(16px, 1.9vw, 21px);
 }
 
 
@@ -79,7 +79,8 @@ footer i:hover{
 
 #premios li i{
   color: aliceblue;
-  font-size: clamp(10px, 2vw, 18px)
+  font-size: clamp(14px, 1.1vw, 21px)
+  
 }
 
 #audiobar{
