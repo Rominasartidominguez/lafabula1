@@ -17,15 +17,15 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md fixed-top shadow-sm navbar-dark">
+    <nav class="navbar navbar-expand-md fixed-top shadow-sm ">
       <div class="container-lg">
         <!-- Logo de la película -->
-        <a class="navbar-brand" href="#encabezado">
+        <a class="navbar-brand p-2" href="#encabezado">
           <img src="imagenes/logos/navlogo.png" alt="La Fábula Logo" title="La Fábula de la Tortuga y la Flor" width="100">
         </a>
     
         <!-- Botón colapsable en MD -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        <button   class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
                 aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,7 +46,7 @@
               <a class="nav-link" href="#galeria">Galería</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#logros">Película</a>
+              <a class="nav-link" href="#prensa">Prensa</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#directora">Directora</a>
@@ -103,9 +103,9 @@
                     allowfullscreen>
                     </iframe>
                 </div>
-                <div class=" py-2" >
+                <div class="py-5" id="ft">
                   
-                  <h2 class=" btn fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseList" aria-expanded="false" aria-controls="#collapseList">Ficha técnica</h2>
+                  <h4 class="text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseList" aria-expanded="false" aria-controls="#collapseList">Ficha técnica</h4>
                   <ul class="list-unstyled fs-6 collapse" id="collapseList">
                         <li><strong>Género:</strong> Documental</li>
                         <li><strong>Países:</strong> Uruguay, España</li>
@@ -169,14 +169,11 @@
           </div>
         </section>
 
-        <section id="logros" class="container-fluid py-5 ">
+        <section id="prensa" class="container-fluid py-5 ">
 
-          <div class="contenedor-seccion col-11 col-sm-11 col-md-10 col-lg-8">     
+          <div class="py-5 contenedor-seccion col-11 col-sm-11 col-md-10 col-lg-8">     
             <div class="row align-items-top justify-content-center ">    
-              <div id="pelicula" class="rounded-3 shadow-2 p-3 text-center">
-                <h1>La película</h1>
-                <p>Una película que abraza lo inevitable y convierte la amistad en refugio.</p>
-              </div>  
+              
               <div class="py-2 text-center col-10 col-sm-8 col-md-4 col-lg-4 col-xl-4">
                 <h2>Estrenos</h2>
                 <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
@@ -200,7 +197,8 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
-              </div> 
+              </div>
+
               <div class="py-2 text-center col-10 col-sm-8 col-md-4 col-lg-4 col-xl-4">
                 <h2>Premios</h2>
                 <div class="d-flex flex-column align-items-center p-2 rounded shadow col-12 " id="premios">
@@ -214,6 +212,7 @@
                 </div>
 
               </div>
+
               <div class="text-center py-2 text-center col-10 col-sm-8 col-md-4 col-lg-4 col-xl-4">
                 <h2>Critica</h2>
                 <div id="carouselExampleAutoplaying3" class="carousel slide" data-bs-ride="carousel">
@@ -234,28 +233,29 @@
                 </div>     
               </div>
             </div>              
-          </div> 
-          
+          </div>   
           <div class="align-items-top justify-content-center">
                 <h2 class="py-3 contenedor-seccion col-11 col-sm-11 col-md-10 col-lg-8 text-center">Entrevistas</h2>
                 
-                <div id="entrevistas" class="contenedor-seccion col-11 col-sm-10 col-md-11 col-lg-8 p-3 rounded ">
+                <div id="entrevistas" class="contenedor-seccion col-11 col-sm-10 col-md-10 col-lg-8 p-3 rounded ">
                   
-                  <div class="row">
-                    <div class= "text-start col-md-6">
+                  <div class="row gap-5 ">
+                    <div class= "text-start col-10 col-md-5">
                       <div class=" d-flex flex-column text-start p-3" id="entrevistaradio1">
-                        <h4>La vida misma en clave poética <br> <em>Serendipia | Radio Cultura</em></h4>
-                        <p><q> En esta entrevista con Malena Rodríguez habla de los desafíos de filmar y construir una película a partir de una situación límite y una relación entrañable.</q></p>
+                        <h4><em>Serendipia | Radio Cultura</em></h4>
+                        <p><q><cite>La vida misma en clave poética.</cite><br>
+                           En esta entrevista con Malena Rodríguez habla de los desafíos de filmar y construir una película a partir de una situación límite y una relación entrañable.</q></p>
                         <audio controls class="p-3 border align-self-start rounded-3" id="audiobar">
                           <source src="audio/La-Fabula-de-la-Tortuga-y-la-Flor-DOCUMENTAL-NOTA-.mp3" type="audio/mpeg">
                         </audio>
-                        <a class="btn" href="https://mediospublicos.uy/la-vida-misma-en-clave-poetica/">Mira la nota</a>
+                        <a class="btn py-3" target="_blank" href="https://mediospublicos.uy/la-vida-misma-en-clave-poetica/">Mira la nota</a>
                       </div>
                     </div>
                     <div class=" text-start  col-md-6">
                       <div class="d-flex flex-column p-3 text-start " id="entrevistatv1">
-                        <h4>La pelicula que con convierte la amitad en un refugio <br><small><em>Ciudad Viva | TV Ciudad</em></small></h4>
-                        <p> <q>Conversamos con Carolina Campo Lupo, Directora </q></p>
+                        <h4><em>Ciudad Viva | TV Ciudad</em></h4>
+                        <p><q><cite>La pelicula que con convierte la amitad en un refugio.</cite><br>
+                          Conversamos con Carolina Campo Lupo, Directora </q></p>
                         <iframe class="rounded-3 shadow align-self-start"
                         src="https://www.youtube.com/embed/32HZyIKjvVU" 
                         title="Entrevista tv ciudad" 
@@ -302,16 +302,16 @@
           </div>
         </section> 
 
-        <section id="equipo"class="py-5 container-fluid py-3d-flex align-items-center justify-content-center">
+        <section id="equipo" class="py-5 container-fluid d-flex align-items-center justify-content-center">
           <div class="contenedor-seccion col-11 col-sm-11 col-md-10 col-lg-8">
             <div class="row justify-content-start align-items-staart aling-self-center">
-                <div class="pt-5 ">
+                <div>
                   <h1>Nuestro Equípo</h1>
                   <p>
-                        Esta película nació del encuentro.
-                        Del cuidado, la escucha, la sensibilidad de cada persona que se sumó a este viaje. 
-                        Hoy te presentamos a quiénes hicieron posible La Fábula de la Tortuga y la Flor.
-                        Porque este es un trabajo colectivo, y cada presencia fue indispensable.
+                    Esta película nació del encuentro.
+                    Del cuidado, la escucha, la sensibilidad de cada persona que se sumó a este viaje. 
+                    Hoy te presentamos a quiénes hicieron posible La Fábula de la Tortuga y la Flor.
+                    Porque este es un trabajo colectivo, y cada presencia fue indispensable.
                   </p>       
                 </div>
                 <div class="col-8 col-sm-5 col-md-4 col-xl-3">
@@ -442,17 +442,10 @@
         </section>
                  
         <section id="productoras" class="container-fluid py-5 d-flex align-items-center justify-content-center text-center">
-          <div>
-            <div class="contenedor-seccion col-11 col-sm-12 col-md-8 col-lg-4 ">
-              <div id="casas" class="rounded-3 shadow-2 p-3 ">
-                <h1>Casas Productoras</h1>     
-              </div>
-            </div>
+          <div class="py-5 contenedor-seccion col-11 col-sm-12 col-md-12 col-lg-12 col-xxl-10">
 
-            <div class="contenedor-seccion col-11 col-sm-12 col-md-12 col-lg-12 col-xxl-10">
-
-              <div class="row justify-content-center gap-3">    
-                <div id="monarca" class="p-2 my-3 rounded-4   shadow text-center col-10 col-sm-5 col-md-4 col-lg-3">
+              <div class="py-5 row justify-content-center gap-5">    
+                <div id="monarca" class="py-4  rounded-4   shadow text-center col-10 col-sm-5 col-md-4 col-lg-4 col-xxl-3">
                   <h2>Monarca Films</h2>
                 
                   <a class=" align-self-center text-center btn" href="https://www.monarcafilms.com.uy/inicio" target="_blank">
@@ -471,7 +464,7 @@
                 </div>
 
 
-                <div id="insumisa"  class="p-2 my-3 rounded-4 shadow text-center col-10 col-sm-5 col-md-4 col-lg-3 ">
+                <div id="insumisa"  class="py-4  rounded-4 shadow text-center col-10 col-sm-5 col-md-4 col-lg-4 col-xxl-3">
                   <h2>Insumisa Films</h2>
               
                   <a class=" align-self-center btn text-center" href="https://insufilms.com/" target="_blank"><img src="imagenes/logos/inslogo.png" alt="Insumisa Films" title="Insumisa Films" class="img-fluid w-50 py-2"><br><small>www.insufilms.com</small></a>
@@ -489,7 +482,7 @@
                     </a> 
                 </div>
 
-                <div id="pajaro"  class=" p-2 my-3 rounded-4  shadow text-center col-10 col-sm-5 col-md-4 col-lg-3">
+                <div id="pajaro"  class="py-4  rounded-4  shadow text-center col-10 col-sm-5 col-md-4 col-lg-4 col-xxl-3">
 
                   <h2>Pajaro Dorado</h2>
                   
@@ -505,8 +498,8 @@
 
               </div> 
               
-            </div>
           </div>
+        
         </section>
         
         <section id="contacto" class="p-5 justify-content-center ">
