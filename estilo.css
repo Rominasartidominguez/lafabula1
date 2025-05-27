@@ -110,12 +110,7 @@ audio.controls{
   .btn:hover {
     color:#22312D;
   }
-#ft h4:hover{
-  color: #75A89B;
-}
-#directora .btn:hover{
-  color: #75A89B;
-}
+
 
   /* Añade la flecha antes del texto del botón */
 #lista .btn::before {
