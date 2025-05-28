@@ -54,7 +54,7 @@ footer i:hover{
   margin-top: 150px;
 }
 
-#encabezado, #trailer, #galeria, #prensa, #productoras,#contacto, #alwaysCollapsedNav{
+#encabezado, #trailer, #galeria, #prensa, #productoras,#contacto{
     background: url(imagenes/fondo.png);
     background-attachment: fixed;
     background-position: center;
@@ -62,9 +62,7 @@ footer i:hover{
     color: aliceblue;
 }
 
-
-
-#sinopsis, #equipo, #casas, #monarca, #insumisa, #pajaro, #entrevistas {
+#sinopsis, #equipo, #casas, #monarca, #insumisa, #pajaro, #entrevistas, #trailer h4 {
     background-color: #75A89B;
     color: aliceblue;
 }
@@ -110,7 +108,8 @@ audio.controls{
   .btn:hover {
     color:#22312D;
   }
-  #listadirec .btn:hover{
+
+  #listadirec :hover{
     color: #75A89B;
   }
 
@@ -155,5 +154,13 @@ audio.controls{
   max-width: 450px;
 }
 
+#graciasModal .modal-content{
+  background-color:#22312D;
+  color: aliceblue;  
+}
+
+#graciasModal .btn{
+  background-color: #75A89B;
+}
 
 
