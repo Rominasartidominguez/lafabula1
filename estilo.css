@@ -110,7 +110,9 @@ audio.controls{
   .btn:hover {
     color:#22312D;
   }
-
+  #listadirec .btn:hover{
+    color: #75A89B;
+  }
 
   /* Añade la flecha antes del texto del botón */
 #lista .btn::before {
@@ -141,6 +143,9 @@ audio.controls{
     color:#22312D;    /* el color que quieras para el título activo */
     font-weight: bold; /* opcional, para destacarlo */
   }
+
+
+
 
 #monarca a i, #insumisa a i, #pajaro a i{
   font-size: 0.9em;
